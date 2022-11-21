@@ -39,6 +39,10 @@ nav nav a {
   padding-left: 4rem !important;
 }
 
-nav a.open .icon-tabler-chrevron-left {
+nav a.open .icon-tabler-chevron-left {
   transform: rotate(-90deg);
+}
+
+nav a.open + nav {
+  display: flex !important;
 }
